@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+	<display-name>Archetype Created Web Application</display-name>
+ 
+	<servlet>
+		<servlet-name>RedirectURLFromBoxServlet</servlet-name>
+		<servlet-class>
+			com.eko.action.RedirectURLFromBoxServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UploadFileServlet</servlet-name>
+		<servlet-class>
+			com.eko.action.UploadFileServlet
+		</servlet-class>
+	</servlet>
+		<servlet>
+		<servlet-name>AuthViewerServlet</servlet-name>
+		<servlet-class>
+			com.eko.action.AuthViewerServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ShowPageServlet</servlet-name>
+		<servlet-class>
+			com.eko.action.ShowPageServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AuthVideoServlet</servlet-name>
+		<servlet-class>
+			com.eko.action.AuthVideoServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RedirectURLFromBoxServlet</servlet-name>
+		<url-pattern>/redirectURL</url-pattern>
+	</servlet-mapping> 
+	<servlet-mapping>
+		<servlet-name>UploadFileServlet</servlet-name>
+		<url-pattern>/upload</url-pattern>
+	</servlet-mapping> 
+	 <servlet-mapping>
+		<servlet-name>AuthViewerServlet</servlet-name>
+		<url-pattern>/authViewer</url-pattern>
+	</servlet-mapping> 
+	<servlet-mapping>
+		<servlet-name>ShowPageServlet</servlet-name>
+		<url-pattern>/ShowPage</url-pattern>
+	</servlet-mapping>
+	 <servlet-mapping>
+		<servlet-name>AuthVideoServlet</servlet-name>
+		<url-pattern>/videoAuth</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>/page/index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
