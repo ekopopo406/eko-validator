@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.eko.security.properties.SecurityProperties",
+      "name": "com.eko.security",
+      "type": "com.eko.security.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.eko.security.properties.SecurityProperties",
+      "name": "com.eko.security.browser",
+      "type": "com.eko.security.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.eko.security.properties.SecurityProperties",
+      "name": "com.eko.security.code",
+      "type": "com.eko.security.properties.ValidateCodeProperties"
+    },
+    {
+      "sourceType": "com.eko.security.properties.SecurityProperties",
+      "name": "com.eko.security.social",
+      "type": "com.eko.security.properties.SocialProperties"
+    }
+  ]
+}
