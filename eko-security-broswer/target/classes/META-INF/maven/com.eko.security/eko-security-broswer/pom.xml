@@ -3,14 +3,14 @@
   <parent>
     <groupId>com.eko.security</groupId>
     <artifactId>eko-security</artifactId>
-    <version>${eko-security-version}</version>
+    <version>0.0.1</version>
   </parent>
   <artifactId>eko-security-broswer</artifactId>
     <dependencies>
  	<dependency>
  		<groupId>com.eko.security</groupId>
  		<artifactId>eko-security-core</artifactId>
- 		<version>${eko-security-version}</version>
+ 		<version>0.0.1</version>
   	</dependency>
   	<dependency>
   		<groupId>org.springframework.session</groupId>
@@ -47,4 +47,5 @@
 			</plugin>
 		</plugins>
 	</build>
+  <version>0.0.1</version>
 </project>

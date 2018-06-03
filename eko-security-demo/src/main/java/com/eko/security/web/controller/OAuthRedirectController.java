@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/localRedirect")
 public class OAuthRedirectController {
-	public static final URL_LOCAL_AUTH = "http://127.0.0.1:8080/auth/token";
+	public static final String URL_LOCAL_AUTH = "http://127.0.0.1:8080/auth/token";
 	@GetMapping("/authcode")
 	@ResponseBody
 	public String getAuthCode(@RequestParam String code){

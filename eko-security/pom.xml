@@ -2,14 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.eko.security</groupId>
   <artifactId>eko-security</artifactId>
-  <version>${eko-security-version}</version>
+  <version>0.0.1</version>
   <packaging>pom</packaging>
-  <modules>
-  	<module>eko-security-core</module>
-  	<module>eko-security-app</module>
-  	<module>eko-security-broswer</module>
-  	<module>eko-security-demo</module>
-  </modules>
   	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -71,4 +65,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<modules>
+		<module>../eko-security-app</module>
+		<module>../eko-security-broswer</module>
+		<module>../eko-security-core</module>
+		<module>../eko-security-demo</module>
+	</modules>
 </project>
