@@ -14,12 +14,12 @@ public class ApiController {
 	private static final Logger logger = LoggerFactory.getLogger(ApiController.class);
 	@Autowired
 	private UserService userService;
-	@RequestMapping("user/getusername")
+	@RequestMapping("ekouser1")
 	public RestResponse<String> getUserName(long id) {
 		logger.info("request comming");
 		return RestResponse.success(userService.getUserName(id));
 	}
-	@RequestMapping("getusername")
+	@RequestMapping("ekouser2")
 	public String getUserName(){
 		return userService.getUserName(1l);
 	}
