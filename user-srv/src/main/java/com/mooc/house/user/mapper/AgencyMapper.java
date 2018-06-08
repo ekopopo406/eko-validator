@@ -1,13 +1,13 @@
-package com.mooc.house.user.mapper;
+package com.eko.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import com.mooc.house.user.common.PageParams;
-import com.mooc.house.user.model.Agency;
-import com.mooc.house.user.model.User;
+import com.eko.common.PageParams;
+import com.eko.model.Agency;
+import com.eko.model.User;
 
 @Mapper
 public interface AgencyMapper {

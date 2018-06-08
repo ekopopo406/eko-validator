@@ -1,4 +1,4 @@
-package com.mooc.house.user.config;
+package com.eko.config;
 
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;

@@ -1,4 +1,4 @@
-package com.mooc.house.user.controller;
+package com.eko.controller;
 
 import java.util.List;
 
@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mooc.house.user.common.PageParams;
-import com.mooc.house.user.common.RestResponse;
-import com.mooc.house.user.model.Agency;
-import com.mooc.house.user.model.ListResponse;
-import com.mooc.house.user.model.User;
-import com.mooc.house.user.service.AgencyService;
+import com.eko.common.PageParams;
+import com.eko.common.RestResponse;
+import com.eko.model.Agency;
+import com.eko.model.ListResponse;
+import com.eko.model.User;
+import com.eko.service.AgencyService;
 @RestController
 @RequestMapping("agency")
 public class AgencyController {

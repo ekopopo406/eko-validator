@@ -1,6 +1,6 @@
-package com.mooc.house.user.common;
+package com.eko.common;
 
-import com.mooc.house.user.exception.WithTypeException;
+import com.eko.exception.WithTypeException;
 
 public class UserException extends RuntimeException implements WithTypeException{
   

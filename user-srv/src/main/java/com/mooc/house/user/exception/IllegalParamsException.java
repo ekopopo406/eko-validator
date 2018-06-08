@@ -1,4 +1,4 @@
-package com.mooc.house.user.exception;
+package com.eko.exception;
 
 public class IllegalParamsException extends RuntimeException implements WithTypeException{
 

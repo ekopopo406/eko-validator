@@ -1,4 +1,4 @@
-package com.mooc.house.user.utils;
+package com.eko.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;

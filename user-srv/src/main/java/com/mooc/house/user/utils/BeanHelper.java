@@ -1,4 +1,4 @@
-package com.mooc.house.user.utils;
+package com.eko.utils;
 
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.InvocationTargetException;

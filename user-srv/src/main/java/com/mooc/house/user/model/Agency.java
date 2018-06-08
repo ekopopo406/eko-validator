@@ -1,4 +1,4 @@
-package com.mooc.house.user.model;
+package com.eko.model;
 
 public class Agency {
  

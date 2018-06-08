@@ -1,4 +1,4 @@
-package com.mooc.house.user.service;
+package com.eko.service;
 
 import java.time.Instant;
 import java.util.List;
@@ -16,13 +16,13 @@ import org.springframework.transaction.annotation.Transactional;
 import com.alibaba.fastjson.JSON;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableMap;
-import com.mooc.house.user.common.UserException;
-import com.mooc.house.user.common.UserException.Type;
-import com.mooc.house.user.mapper.UserMapper;
-import com.mooc.house.user.model.User;
-import com.mooc.house.user.utils.BeanHelper;
-import com.mooc.house.user.utils.HashUtils;
-import com.mooc.house.user.utils.JwtHelper;
+import com.eko.common.UserException;
+import com.eko.common.UserException.Type;
+import com.eko.mapper.UserMapper;
+import com.eko.model.User;
+import com.eko.utils.BeanHelper;
+import com.eko.utils.HashUtils;
+import com.eko.utils.JwtHelper;
 
 @Service
 public class UserService {

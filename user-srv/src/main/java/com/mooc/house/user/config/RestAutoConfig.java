@@ -1,4 +1,4 @@
-package com.mooc.house.user.config;
+package com.eko.config;
 
 import java.nio.charset.Charset;
 import java.util.Arrays;

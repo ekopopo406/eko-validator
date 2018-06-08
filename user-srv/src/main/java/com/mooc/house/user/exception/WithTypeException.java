@@ -1,4 +1,4 @@
-package com.mooc.house.user.exception;
+package com.eko.exception;
 
 /**
  * 包含类型的异常

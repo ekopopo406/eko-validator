@@ -1,4 +1,4 @@
-package com.mooc.house.user.common;
+package com.eko.common;
 
 public class PageParams {
   

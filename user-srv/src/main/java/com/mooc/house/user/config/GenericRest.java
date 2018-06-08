@@ -1,4 +1,4 @@
-package com.mooc.house.user.config;
+package com.eko.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;

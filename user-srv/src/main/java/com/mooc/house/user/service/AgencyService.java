@@ -1,4 +1,4 @@
-package com.mooc.house.user.service;
+package com.eko.service;
 
 import java.util.List;
 
@@ -9,10 +9,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.mooc.house.user.common.PageParams;
-import com.mooc.house.user.mapper.AgencyMapper;
-import com.mooc.house.user.model.Agency;
-import com.mooc.house.user.model.User;
+import com.eko.common.PageParams;
+import com.eko.mapper.AgencyMapper;
+import com.eko.model.Agency;
+import com.eko.model.User;
 
 @Service
 public class AgencyService {

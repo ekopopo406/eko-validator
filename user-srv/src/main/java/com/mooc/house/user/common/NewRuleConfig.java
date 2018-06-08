@@ -1,4 +1,4 @@
-package com.mooc.house.user.common;
+package com.eko.common;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

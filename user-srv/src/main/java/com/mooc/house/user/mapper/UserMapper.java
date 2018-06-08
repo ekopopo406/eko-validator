@@ -1,10 +1,10 @@
-package com.mooc.house.user.mapper;
+package com.eko.mapper;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.mooc.house.user.model.User;
+import com.eko.model.User;
 
 
 @Mapper

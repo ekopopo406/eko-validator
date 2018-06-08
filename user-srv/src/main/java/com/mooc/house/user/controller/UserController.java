@@ -1,4 +1,4 @@
-package com.mooc.house.user.controller;
+package com.eko.controller;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mooc.house.user.common.RestResponse;
-import com.mooc.house.user.model.User;
-import com.mooc.house.user.service.UserService;
+import com.eko.common.RestResponse;
+import com.eko.model.User;
+import com.eko.service.UserService;
 
 @RestController
 @RequestMapping("user")

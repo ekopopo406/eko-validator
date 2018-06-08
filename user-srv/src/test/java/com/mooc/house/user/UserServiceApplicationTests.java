@@ -1,4 +1,4 @@
-package com.mooc.house.user;
+package com.eko;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

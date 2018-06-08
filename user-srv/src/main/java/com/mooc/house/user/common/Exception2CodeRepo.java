@@ -1,12 +1,12 @@
-package com.mooc.house.user.common;
+package com.eko.common;
 
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.commons.lang3.reflect.FieldUtils;
 
 import com.google.common.collect.ImmutableMap;
-import com.mooc.house.user.exception.IllegalParamsException;
-import com.mooc.house.user.exception.WithTypeException;
-import com.mooc.house.user.model.User;
+import com.eko.exception.IllegalParamsException;
+import com.eko.exception.WithTypeException;
+import com.eko.model.User;
 
 public class Exception2CodeRepo {
 	
